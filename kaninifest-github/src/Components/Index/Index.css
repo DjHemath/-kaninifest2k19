@@ -1,0 +1,341 @@
+
+
+.Header .hamburger
+{
+    font-size: 25px
+}
+
+.Header nav
+{
+    background-color: #5599f2
+}
+
+.Header .sidenav
+{
+    background-color: #fcfcfc;
+}
+
+.Header .sidenav .SidenavLogo
+{
+    height: 200px;
+    background-color: #5599f2;
+}
+
+.Header .sidenav .MenuLinks
+{
+    padding: 10px 20px;
+}
+
+.Header .sidenav .MenuLinks li
+{
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 1px 0;
+}
+
+.Header .sidenav .MenuLinks li i
+{
+    margin-right: 10px;
+}
+
+.sidenav-overlay
+{
+    z-index: 0;
+}
+
+.carousel
+{
+    height: 40vh;
+    text-align: center
+}
+
+.carousel-text
+{
+    position: relative;
+}
+
+.carousel h3
+{
+    color: #4b4b4b;
+    font-size: 20px;
+    text-shadow: 0px 0px 5px #252525;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.carousel h4
+{
+    color: #5599f2;
+    text-shadow: 0 0 6px #000;
+    font-size: 40px;
+    padding-bottom: 0;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.carousel h5
+{
+    font-size: 15px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.carousel h2
+{
+    font-size: 40px;
+    color: #252525;
+    text-shadow: 0 0 10px #000;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.Carousel .carousel-item
+{
+    width: 100%;
+    margin: auto;
+}
+
+.Carousel .carousel-item img
+{
+    opacity: 0.3;
+}
+
+.ComponentHeading
+{
+    color: #5599f2;
+}
+
+.divider
+{
+  background-color: #5599f2;
+  height: 3px;
+  margin: 20px 30px;
+}
+
+.About
+{
+    padding: 20px;
+}
+
+.Events
+{
+    padding: 20px;
+}
+
+
+.Events .EventsTitle
+{
+    text-align: center;
+    font-size: 20px;
+    background-color: #5599f2;
+    padding: 10px 30px;
+    color: #fff;
+    box-shadow: 0 0 10px #000;
+    margin-top: 30px;
+}
+
+.Events .EventsList
+{
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.Events .EventsList li
+{
+    font-size: 17px;
+    padding: 15px;
+}
+
+.Contact
+{
+    padding: 20px;
+}
+
+.Contact .ContactGroups
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.Contact .ContactGroup
+{
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+.Contact .ContactType
+{
+    color: #252525;
+    font-weight: bold;
+}
+
+.Contact .ContactIcon
+{
+    color: #5599f2;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.fa-custom
+{
+    color: transparent !important;
+    -webkit-text-stroke-color: #5599f2;
+    -webkit-text-stroke-width: 2px;
+}
+
+.Contact .ContactDetails
+{
+    font-size: 20px;
+}
+
+.Contact .ContactBoxContainer
+{
+    padding: 10px;
+    box-shadow: 0 0 5px #000;
+}
+
+.Contact .ContactMap
+{
+    height: 350px;
+    overflow: hidden;
+}
+
+.Contact .LocationImg
+{
+    width: 100%;   
+}
+
+.Footer
+{
+    text-align: center;
+    background-color: #252525;
+    color: #f4f4f4;
+    margin-bottom: 0 !important;
+}
+
+.Footer div
+{
+    padding: 20px !important;
+}
+
+.Footer i
+{
+    margin-right: 10px;
+}
+
+@media (min-width: 600px)
+{
+    .Header #DesktopMenu li
+    {
+        padding: 0 20px;
+        cursor: pointer;
+    }
+
+    .Header #DesktopMenu li:hover
+    {
+        background-color: #4089e9
+    }
+
+    .divider
+    {
+        background-color: #5599f2;
+        height: 3px;
+        margin: 40px 100px;
+    }
+    .carousel
+    {
+        height: 85vh;
+        text-align: center;
+    }
+
+    .carousel .carousel-item
+    {
+        position: absolute;
+        top: -120px;
+    }
+
+    .carousel .carousel-item img
+    {
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+    }
+
+    .carousel h3
+    {
+        color: #4b4b4b;
+        text-shadow: 0px 0px 5px #252525;
+        margin: 1em;
+        font-size: 40px;
+    }
+
+    .carousel h4
+    {
+        color: #5599f2;
+        text-shadow: 0 0 6px #000;
+        font-size: 60px;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .carousel h5
+    {
+        padding-top: 20px;
+    }
+
+    .carousel h2
+    {
+        padding-top: 20px;
+        font-size: 80px;
+        color: #252525;
+        text-shadow: 0 0 10px #000;
+        margin: 1em;
+    }
+
+    .About p
+    {
+        padding: 20px 100px;
+    }
+
+    .Events .EventsGroup
+    {
+        padding: 0 100px;
+    }
+
+    .Events .EventsList
+    {
+        display: grid;
+        align-content: center;
+        min-height: 300px;
+    }
+
+    .Events .EventsList li
+    {
+        padding: 10px;
+    }
+
+    .Contact .ContactBoxContainer
+    {
+        width: 85%;
+    }
+
+    .Contact .ContactBox,.Contact .ContactMap
+    {
+        margin: 10px 0;
+        padding: 10px 100px;
+    }
+
+    .Contact .LocationImg
+    {
+        width: 100%;
+        height: 200%;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .Footer
+    {
+        padding: 10px 5px
+    }
+}
